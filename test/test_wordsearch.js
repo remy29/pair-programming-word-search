@@ -23,14 +23,14 @@ describe("#wordSearch()", function() {
   it("should return true if the word is present", function() {
     const result = wordSearch([
       ['S', 'W', 'C', 'F', 'Q', 'U', 'A', 'L'],
-      ['E', 'I', 'I', 'N', 'F', 'E', 'L', 'D'],
-      ['I', 'F', 'C', 'F', 'Q', 'U', 'A', 'L'],
-      ['N', 'M', 'J', 'T', 'E', 'V', 'R', 'G'],
-      ['F', 'H', 'C', 'S', 'Y', 'E', 'R', 'L'],
+      ['I', 'S', 'I', 'N', 'F', 'E', 'L', 'D'],
+      ['I', 'E', 'C', 'F', 'Q', 'U', 'A', 'L'],
+      ['N', 'I', 'J', 'T', 'E', 'V', 'R', 'G'],
+      ['F', 'N', 'C', 'S', 'Y', 'E', 'R', 'L'],
       ['E', 'F', 'R', 'E', 'N', 'E', 'Y', 'B'],
-      ['L', 'B', 'T', 'W', 'A', 'P', 'A', 'I'],
-      ['D', 'D', 'C', 'A', 'K', 'U', 'A', 'S'],
-      ['E', 'Z', 'K', 'F', 'Q', 'U', 'A', 'L'],
+      ['L', 'E', 'T', 'W', 'A', 'P', 'A', 'I'],
+      ['D', 'L', 'C', 'A', 'K', 'U', 'A', 'S'],
+      ['E', 'D', 'K', 'F', 'Q', 'U', 'A', 'L'],
     ], 'SEINFELD');
 
     assert.isTrue(result);

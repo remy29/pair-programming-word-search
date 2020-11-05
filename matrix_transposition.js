@@ -1,13 +1,3 @@
-// Do not edit this function.
-const printMatrix = (matrix) => {
-  for (const row of matrix) {
-    for (const el of row) {
-      process.stdout.write(el + " ");
-    }
-    process.stdout.write('\n');
-  }
-};
-
 const transpose = function(matrix) {
   const results = [];
   results.length = matrix[0].length;
